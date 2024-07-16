@@ -1,0 +1,784 @@
+/* for colors: https://cssgradient.io/shades-of-blue/ */
+
+*{
+    color: #002D62;
+    background-color: #6495ED;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: 3px 3px 0px #1E2952;
+}
+
+.container{
+    font-size: 100px;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    height: 100vh;
+    margin-left: 70px;
+}
+
+a{
+    color: #6495ED;
+    background-color: #002D62;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px #1E2952;
+    cursor: pointer;
+}
+
+a:hover{
+    padding: 12px;
+    box-shadow: 4px 4px 2px #1E2952;
+}
+
+a:active{
+    padding: 10px;
+    box-shadow: none;
+}
+
+.me{
+    font-family: "Press Start 2P", system-ui;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: 65px;
+    text-decoration: none;
+}
+
+.s{
+    font-family: "Press Start 2P", system-ui;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: 65px;
+    color: #6495ED;
+    background-color: #002D62;
+    text-decoration: none;
+}
+.s:hover{
+    font-size: 70px;
+    color: #CCCCFF;
+    text-shadow: 0 0 7px #6495ED;
+}
+.h{
+    font-family: "Press Start 2P", system-ui;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: 65px;
+    color: #6495ED;
+    background-color: #002D62;
+    text-decoration: none;
+}
+.h:hover{
+    font-size: 70px;
+    color: #CCCCFF;
+    text-shadow: 0 0 7px #6495ED;
+}
+.i{
+    font-family: "Press Start 2P", system-ui;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: 65px;
+    color: #6495ED;
+    background-color: #002D62;
+    text-decoration: none;
+}
+.i:hover{
+    font-size: 70px;
+    color: #CCCCFF;
+    text-shadow: 0 0 7px #6495ED;
+}
+.v{
+    font-family: "Press Start 2P", system-ui;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: 65px;
+    color: #6495ED;
+    background-color: #002D62;
+    text-decoration: none;
+}
+.v:hover{
+    font-size: 70px;
+    color: #CCCCFF;
+    text-shadow: 0 0 7px #6495ED;
+}
+
+p{
+    font-size: 20px;
+    text-shadow: none;
+}
+
+@media (min-width: 1000px){
+    *{
+        color: #002D62;
+        background-color: #6495ED;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        text-shadow: 3px 3px 0px #1E2952;
+    }
+    
+    .container{
+        font-size: 100px;
+        display: flex;
+        flex: 2;
+        align-items: center;
+        height: 100vh;
+        margin-left: 70px;
+    }
+    
+    a{
+        color: #6495ED;
+        background-color: #002D62;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 2px #1E2952;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        padding: 12px;
+        box-shadow: 4px 4px 2px #1E2952;
+    }
+    
+    a:active{
+        padding: 10px;
+        box-shadow: none;
+    }
+    
+    .me{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        text-decoration: none;
+    }
+    
+    .s{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .s:hover{
+        font-size: 70px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .h{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .h:hover{
+        font-size: 70px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .i{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .i:hover{
+        font-size: 70px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .v{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .v:hover{
+        font-size: 70px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    
+    p{
+        font-size: 20px;
+        text-shadow: none;
+    }
+}
+
+@media (min-width: 800px){
+    *{
+        color: #002D62;
+        background-color: #6495ED;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        text-shadow: 3px 3px 0px #1E2952;
+    }
+    
+    .container{
+        font-size: 100px;
+        display: flex;
+        flex: 2;
+        align-items: center;
+        height: 100vh;
+        margin-left: 70px;
+    }
+    
+    a{
+        color: #6495ED;
+        background-color: #002D62;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 2px #1E2952;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        padding: 12px;
+        box-shadow: 4px 4px 2px #1E2952;
+    }
+    
+    a:active{
+        padding: 10px;
+        box-shadow: none;
+    }
+    
+    .me{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        text-decoration: none;
+    }
+    
+    .s{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .s:hover{
+        font-size: 70px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .h{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .h:hover{
+        font-size: 70px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .i{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .i:hover{
+        font-size: 70px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .v{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 65px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .v:hover{
+        font-size: 70px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    
+    p{
+        font-size: 20px;
+        text-shadow: none;
+    }
+}
+
+@media (max-width: 800px){
+    *{
+        color: #002D62;
+        background-color: #6495ED;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        text-shadow: 3px 3px 0px #1E2952;
+    }
+    
+    .container{
+        font-size: 70px;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        height: 100vh;
+        margin-left: 30px;
+    }
+    
+    a{
+        color: #6495ED;
+        background-color: #002D62;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 2px #1E2952;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        padding: 12px;
+        box-shadow: 4px 4px 2px #1E2952;
+    }
+    
+    a:active{
+        padding: 10px;
+        box-shadow: none;
+    }
+    
+    .me{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        text-decoration: none;
+    }
+    
+    .s{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .s:hover{
+        font-size: 50px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .h{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .h:hover{
+        font-size: 50px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .i{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .i:hover{
+        font-size: 50px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .v{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .v:hover{
+        font-size: 50px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    
+    p{
+        font-size: 10px;
+        text-shadow: none;
+    }
+}
+
+@media (max-width: 740px){
+    *{
+        color: #002D62;
+        background-color: #6495ED;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        text-shadow: 3px 3px 0px #1E2952;
+    }
+    
+    .container{
+        font-size: 70px;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        height: 100vh;
+        margin-left: 30px;
+    }
+    
+    a{
+        color: #6495ED;
+        background-color: #002D62;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 2px #1E2952;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        padding: 12px;
+        box-shadow: 4px 4px 2px #1E2952;
+    }
+    
+    a:active{
+        padding: 10px;
+        box-shadow: none;
+    }
+    
+    .me{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        text-decoration: none;
+    }
+    
+    .s{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .s:hover{
+        font-size: 50px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .h{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .h:hover{
+        font-size: 50px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .i{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .i:hover{
+        font-size: 50px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .v{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 45px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .v:hover{
+        font-size: 50px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    
+    p{
+        font-size: 10px;
+        text-shadow: none;
+    }
+}
+
+@media (max-width: 600px)
+{
+    *{
+        color: #002D62;
+        background-color: #6495ED;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        text-shadow: 3px 3px 0px #1E2952;
+    }
+    
+    .container{
+        font-size: 50px;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        height: 100vh;
+        margin-left: 20px;
+    }
+    
+    a{
+        color: #6495ED;
+        background-color: #002D62;
+        padding: 8px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 2px #1E2952;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        padding: 9px;
+        box-shadow: 4px 4px 2px #1E2952;
+    }
+    
+    a:active{
+        padding: 8px;
+        box-shadow: none;
+    }
+    
+    .me{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    
+    .s{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .s:hover{
+        font-size: 30px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .h{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .h:hover{
+        font-size: 30px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .i{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .i:hover{
+        font-size: 30px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .v{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .v:hover{
+        font-size: 30px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    
+    p{
+        font-size: 8px;
+        text-shadow: none;
+    }
+}
+
+@media (max-width: 400px){
+    *{
+        color: #002D62;
+        background-color: #6495ED;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        text-shadow: 3px 3px 0px #1E2952;
+    }
+    
+    .container{
+        font-size: 50px;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        height: 100vh;
+        margin-left: 20px;
+    }
+    
+    a{
+        color: #6495ED;
+        background-color: #002D62;
+        padding: 8px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 3px 3px 2px #1E2952;
+        cursor: pointer;
+    }
+    
+    a:hover{
+        padding: 9px;
+        box-shadow: 4px 4px 2px #1E2952;
+    }
+    
+    a:active{
+        padding: 8px;
+        box-shadow: none;
+    }
+    
+    .me{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    
+    .s{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .s:hover{
+        font-size: 30px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .h{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .h:hover{
+        font-size: 30px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .i{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .i:hover{
+        font-size: 30px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    .v{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 25px;
+        color: #6495ED;
+        background-color: #002D62;
+        text-decoration: none;
+    }
+    .v:hover{
+        font-size: 30px;
+        color: #CCCCFF;
+        text-shadow: 0 0 7px #6495ED;
+    }
+    
+    p{
+        font-size: 6px;
+        text-shadow: none;
+    }   
+}

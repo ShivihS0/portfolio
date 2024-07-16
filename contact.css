@@ -1,0 +1,21 @@
+*{
+    color: whitesmoke;
+    background-color: rgb(17, 17, 39);
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a{
+    color: cornflowerblue;
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.con{
+    display: grid;
+}

@@ -1,0 +1,452 @@
+*{
+    color: #002D62;
+    background-color: #5072A7;
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.logo{
+    display: flex;
+}
+
+a{
+    font-family: "Press Start 2P", system-ui;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: 20px;
+    padding: 8px;
+    color: #002D62;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+a:hover{
+    color: #ccccff;
+    text-shadow: #6495ED;
+    text-shadow: 0px 0px 5px #ccccff;
+}
+
+.s-container{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 250px;
+}
+
+.btn{
+    font-weight: bold;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    border: none;
+    border-radius: 18px;
+    padding: 8px;
+    background-color: #002244;
+    color: #5072A7;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #ccccff;
+    text-shadow: #6495ED;
+    box-shadow: 0px 0px 5px #ccccff;
+}
+
+.btn:active{
+    box-shadow: none;
+}
+
+@media (min-width: 1000px){
+    *{
+        color: #002D62;
+        background-color: #5072A7;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .s-container{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 250px;
+    }
+    
+    .logo{
+        display: flex;
+    }
+    
+    a{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 20px;
+        padding: 8px;
+        color: #002D62;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+    
+    a:hover{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        text-shadow: 0px 0px 5px #ccccff;
+    }
+
+    .btn{
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        border: none;
+        border-radius: 18px;
+        padding: 8px;
+        background-color: #002244;
+        color: #5072A7;
+        cursor: pointer;
+    }
+    
+    .btn:active{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        box-shadow: 0px 0px 5px #ccccff;
+    }
+}
+
+@media (min-width: 800px){
+    *{
+        color: #002D62;
+        background-color: #5072A7;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .s-container{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 250px;
+    }
+    
+    .logo{
+        display: flex;
+    }
+    
+    a{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 20px;
+        padding: 8px;
+        color: #002D62;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+    
+    a:hover{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        text-shadow: 0px 0px 5px #ccccff;
+    }
+    .btn{
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        border: none;
+        border-radius: 18px;
+        padding: 8px;
+        background-color: #002244;
+        color: #5072A7;
+        cursor: pointer;
+    }
+    
+    .btn:active{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        box-shadow: 0px 0px 5px #ccccff;
+    }
+}
+
+@media (max-width: 800px){
+    *{
+        color: #002D62;
+        background-color: #5072A7;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .s-container{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 250px;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    a{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 20px;
+        padding: 8px;
+        color: #002D62;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+    
+    a:hover{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        text-shadow: 0px 0px 5px #ccccff;
+    }
+    .btn{
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        border: none;
+        border-radius: 18px;
+        padding: 8px;
+        background-color: #002244;
+        color: #5072A7;
+        cursor: pointer;
+    }
+    
+    .btn:active{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        box-shadow: 0px 0px 5px #ccccff;
+    }
+}
+
+@media (max-width: 740px){
+    *{
+        color: #002D62;
+        background-color: #5072A7;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .s-container{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 250px;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    a{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 20px;
+        padding: 8px;
+        color: #002D62;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+    
+    a:hover{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        text-shadow: 0px 0px 5px #ccccff;
+    }
+    .btn{
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        border: none;
+        border-radius: 18px;
+        padding: 8px;
+        background-color: #002244;
+        color: #5072A7;
+        cursor: pointer;
+    }
+    
+    .btn:active{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        box-shadow: 0px 0px 5px #ccccff;
+    }
+}
+
+@media (max-width: 600px){
+    *{
+        color: #002D62;
+        background-color: #5072A7;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .s-container{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 100px;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    a{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 20px;
+        padding: 8px;
+        color: #002D62;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+    
+    a:hover{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        text-shadow: 0px 0px 5px #ccccff;
+    }
+    .btn{
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        border: none;
+        border-radius: 18px;
+        padding: 8px;
+        background-color: #002244;
+        color: #5072A7;
+        cursor: pointer;
+    }
+    
+    .btn:active{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        box-shadow: 0px 0px 5px #ccccff;
+    }
+}
+
+@media (max-width: 400px){
+    *{
+        color: #002D62;
+        background-color: #5072A7;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .s-container{
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 80px;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    a{
+        font-family: "Press Start 2P", system-ui;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 20px;
+        padding: 8px;
+        color: #002D62;
+        text-decoration: none;
+        cursor: pointer;
+    
+    }
+    
+    a:hover{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        text-shadow: 0px 0px 5px #ccccff;
+    }
+    .btn{
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
+        border: none;
+        border-radius: 18px;
+        padding: 8px;
+        background-color: #002244;
+        color: #5072A7;
+        cursor: pointer;
+    }
+    
+    .btn:active{
+        color: #ccccff;
+        text-shadow: #6495ED;
+        box-shadow: 0px 0px 5px #ccccff;
+    }
+}
